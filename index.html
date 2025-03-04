@@ -43,7 +43,7 @@
                 </ul>
             </div>
             <div class="nav-button">
-                <button class="btn">Download CV<i class="uil uil-file-alt"></i></button>
+                <a href="/HunterFasnachtResume.docx"><button class="btn">Download CV<i class="uil uil-file-alt"></i></button></a>
             </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
@@ -65,12 +65,12 @@
                     <p>Frontend developer skilled in full stack development and AI.</p>
                 </div>
                 <div class="featured-text-btn">
-                    <button class="btn blue-btn">Hire Me!</button>
-                    <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                    <a href="#contact"><button class="btn blue-btn">Hire Me!</button></a>
+                    <a href="/HunterFasnachtResume.docx"><button class="btn">Download CV<i class="uil uil-file-alt"></i></button></a>
                 </div>
                 <div class="social_icons">
-                    <a href="https://www.linkedin.com/in/hunterfasnacht/" style="color: black;"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
-                    <a href="https://www.github.com/hfasnacht577" style="color: black;"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hunterfasnacht/" style="color: black;"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/hfasnacht577" style="color: black;"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
                 </div>
             </div>
             <div class="featured-image">
@@ -99,7 +99,7 @@
                         <h3>My Introductions</h3>
                         <p>I'm a skilled developer well versed in HTML/CSS, Javascript, Python, and Java. I have experience in fullstack development and deployment in AWS.</p>
                         <div class="about-btn">
-                            <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                            <a href="/HunterFasnachtResume.docx"><button class="btn">Download CV<i class="uil uil-file-alt"></i></button></a>
                         </div>
                     </div>
                 </div>
@@ -181,18 +181,20 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="form-control">
-                            <div class="form-inputs">
-                                <input type="text" placeholder="Name">
-                                <input type="text" placeholder="Email">
+                        <form action="https://formspree.io/f/xbldnbvy" method="POST">
+                            <div class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" placeholder="Name" name="name">
+                                    <input type="text" placeholder="Email" name="Email">
+                                </div>
+                                <div class="text-area">
+                                    <textarea placeholder="message" name="Message"></textarea>
+                                </div>
+                                <div class="form-buttonn">
+                                    <button class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
                             </div>
-                            <div class="text-area">
-                                <textarea placeholder="message"></textarea>
-                            </div>
-                            <div class="form-buttonn">
-                                <button class="btn">Send <i class="uil uil-message"></i></button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -219,8 +221,8 @@
                     </li>
                 </ul>
                 <div class="footer-social-icons">
-                    <a href="https://www.linkedin.com/in/hunterfasnacht/" style="color: black;"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
-                    <a href="https://www.github.com/hfasnacht577" style="color: black;"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hunterfasnacht/" style="color: black;"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/hfasnacht577" style="color: black;"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
                 </div>
                 <div class="bottom-footer">
                     <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Hunter Fasnacht</a> - All rights reserved</p>
