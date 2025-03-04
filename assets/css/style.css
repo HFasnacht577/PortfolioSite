@@ -499,18 +499,55 @@ h3 {
     color: white; /* Ensure text is visible on hover */
     position: relative;
     z-index: 2; /* Ensure text stays on top */
+    display: none;
 }
 
 #simu:hover h3 {
     opacity: 0;
-    transition: opacity 0.4s ease-in-out;
 }
 
 .project-box:hover #simu-desc {
     opacity: 1;
     color: var(--color-white);
+    display: flex;
 }
 
+#portfolio h3{
+    color: var(--color-white);
+    z-index: 2;
+}
+
+#portfolio::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/PortfolioScreenshot.png');
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: 0;
+}
+
+#portfolio-desc {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.4s ease-in-out;
+    color: white; /* Ensure text is visible on hover */
+    position: relative;
+    z-index: 2; /* Ensure text stays on top */
+    display: none;
+}
+
+#portfolio:hover h3 {
+    opacity: 0;
+    padding: 10px;
+}
+
+.project-box:hover #portfolio-desc {
+    opacity: 1;
+    color: var(--color-white);
+    display: flex;
+}
 
 
 /* CONTACT BOX  */

@@ -33,11 +33,12 @@ function headerShadow() {
 /* ----- Typing Effect ----- */
 
 var typingEffect = new Typed(".typedText", {
-    strings : ["Hunter Fasnacht"],
+    strings : ["A Developer","A Hard Worker","Hunter Fasnacht"],
     loop : true,
     typeSpeed : 100,
     baclSpeed : 80,
-    backDelay : 2000
+    backDelay : 2000,
+    loop: false
 })
 
 /* ----- Scroll Revela Animation ----- */
