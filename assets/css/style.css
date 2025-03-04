@@ -232,10 +232,10 @@ nav {
 .social_icons {
     display: flex;
     margin-top: 5em;
-    gap: 30 px;
+    gap: 30px;
 }
 
-.icons {
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -466,7 +466,7 @@ h3 {
 
 /* CONTACT BOX  */
 
-contact-info{
+.contact-info{
     position: relative;
     display: flex;
     flex-direction: column;
